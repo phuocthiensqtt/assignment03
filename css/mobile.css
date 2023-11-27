@@ -1,0 +1,82 @@
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 10pt;
+  }
+  h1 {
+    font-size: 14pt;
+  }
+  h2 {
+    font-size: 12pt;
+  }
+  .myname > h1 {
+    font-size: 20pt;
+  }
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.67%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.67%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.38%;
+  }
+  .col-m-8 {
+    width: 66.67%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.67%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+  #nav-bar {
+    display: block;
+    text-align: left;
+  }
+  #about {
+    display: block;
+  }
+  .job-info {
+    display: block;
+    height: auto;
+  }
+  #certificate-1 {
+    display: block;
+  }
+  .certificate-2 {
+    display: block;
+  }
+  .item-certificate-1 {
+    border-bottom: 2px solid #f2701b;
+    padding-bottom: 20px;
+  }
+  .item-certificate-2 {
+    border-left: none;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  #project {
+    display: block;
+  }
+  .project {
+    margin-bottom: 20px;
+  }
+}

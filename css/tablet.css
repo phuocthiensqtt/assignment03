@@ -1,0 +1,108 @@
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 10pt;
+  }
+  h1 {
+    font-size: 14pt;
+  }
+  h2 {
+    font-size: 12pt;
+  }
+  .myname > h1 {
+    font-size: 20pt;
+  }
+  .col-l-1 {
+    width: 8.33%;
+  }
+  .col-l-2 {
+    width: 16.67%;
+  }
+  .col-l-3 {
+    width: 25%;
+  }
+  .col-l-4 {
+    width: 33.33%;
+  }
+  .col-l-5 {
+    width: 41.67%;
+  }
+  .col-l-6 {
+    width: 50%;
+  }
+  .col-l-7 {
+    width: 58.38%;
+  }
+  .col-l-8 {
+    width: 66.67%;
+  }
+  .col-l-9 {
+    width: 75%;
+  }
+  .col-l-10 {
+    width: 83.33%;
+  }
+  .col-l-11 {
+    width: 91.67%;
+  }
+  .col-l-12 {
+    width: 100%;
+  }
+  #avatarpt {
+    display: none;
+  }
+  #nav-bar {
+    grid-template-columns: auto 2fr 2fr 1fr 2fr 2fr auto;
+  }
+  #about {
+    padding-top: 0;
+  }
+  /* Thông tin nghề nghiệp */
+  .title-info {
+    margin: 30px 0 0 0;
+  }
+  .ic-info {
+    margin: 30px 0 0 0;
+  }
+  .job-info {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+  }
+  .grid-job {
+    height: auto;
+  }
+  .experience {
+    order: 1;
+  }
+  .skills {
+    order: 2;
+  }
+  .interest {
+    order: 3;
+  }
+  .activate {
+    order: 4;
+  }
+  .languages {
+    order: 6;
+  }
+  .education {
+    order: 5;
+  }
+  .item-certificate {
+    display: block;
+  }
+  .img-certificate {
+    width: 96%;
+  }
+  #project {
+    gap: 10px;
+  }
+  .box--project {
+    display: flex;
+    align-items: center;
+  }
+  .icons {
+    display: grid;
+  }
+}
